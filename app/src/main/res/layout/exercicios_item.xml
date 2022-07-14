@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/temaPrincipal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/nomeExercicio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/temaPrincipal"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff">
+                        <ImageView
+                            android:id="@+id/imageExercicio"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/barra_t"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Serie:"
+                        android:textSize="20sp"
+                        android:textColor="@color/temaPrincipal"
+                        android:layout_marginRight="70dp"/>
+                    <EditText
+                        android:id="@+id/serie"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:inputType="number"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@color/fundoLabel"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Repetiçoes:"
+                        android:textSize="20sp"
+                        android:textColor="@color/temaPrincipal"
+                        android:layout_marginRight="15dp"/>
+                    <EditText
+                        android:id="@+id/repeticao"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:inputType="number"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@color/fundoLabel"
+                        android:textAlignment="center"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Peso:"
+                        android:textSize="20sp"
+                        android:textColor="@color/temaPrincipal"
+                        android:layout_marginRight="70dp"/>
+                    <EditText
+                        android:id="@+id/peso"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:inputType="number"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@color/fundoLabel"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <CheckBox
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:shadowColor="@color/fundoButton"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:buttonTint="@color/colorPrimaryDark"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="temaPrincipal">#000000</color>
+    <color name="fundoButton">#00a86b</color>
+    <color name="text">#ffffff</color>
+    <color name="fundoLabel">#787878</color>
+</resources>
